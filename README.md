@@ -1,6 +1,6 @@
 # Tier Maker
 
-A Tier Maker app that allows users to create their own tier lists. The Tier Maker can be repurposed for any topic. Tier Maker inspired by [https://tiermaker.com](https://tiermaker.com).
+A web app that allows users to create their own tier lists. The Tier Maker can be repurposed for any topic. Inspired by [https://tiermaker.com](https://tiermaker.com).
 
 **[See Demo](https://redraptor10.github.io/tier-maker/)**
 
@@ -14,9 +14,10 @@ A Tier Maker app that allows users to create their own tier lists. The Tier Make
 - Generate tier list image for download
 
 ## Configuration
-1. Add item images `/images/items` and background images to `/images/backgrounds`.
-2. Update *tier-maker.css* `--initial-item-height` and `--initial-item-width` to the item images' height and width (px).
-3. Update *tier-maker.js* defaults: (most are self-explanatory)
+1. Add item images to `/images/items` and background images to `/images/backgrounds`.
+   - *Note: Item image sizes should be consistent. Backgrounds should have a regular and `-thumb` version.*
+2. Modify *tier-maker.css* `--initial-item-height` and `--initial-item-width` with the item images' height and width (px).
+3. Modify *tier-maker.js* defaults: (most are self-explanatory)
 
 | Setting | Description |
 | --- | --- |
