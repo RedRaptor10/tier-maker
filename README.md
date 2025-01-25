@@ -14,7 +14,7 @@ A web app that allows users to create their own tier lists. The Tier Maker can b
 - Generate tier list image for download
 
 ## Configuration
-1. Add item images to `/images/items` and background images to `/images/backgrounds`.
+1. Add item images to `/images/items` and background images to `/images/backgrounds` folders.
    - *Note: Item image sizes should be consistent. Backgrounds should have a regular and `-thumb` version.*
 2. Modify *tier-maker.css* `--initial-item-height` and `--initial-item-width` with the item images' height and width (px).
 3. Modify *tier-maker.js* defaults: (most are self-explanatory)
@@ -25,10 +25,22 @@ A web app that allows users to create their own tier lists. The Tier Maker can b
 | `description` |The description of the tier list. |
 | `background` | The background of the tier list. |
 | `poolItems` | A list of item images in `/images/items`. |
-| `backgrounds` | A list of backgrounds in `/images/backgrounds`. |
+| `backgrounds` | A list of background images in `/images/backgrounds`. |
+| `tierItemExt` | The file extension of item images. |
+| `animation` | The animation speed when dragging items. |
 | `defaultTierCount` | The number of tiers to display. |
+| `tierColors` | The colors of tiers to display. |
 | `tierLetters` | The letters of tiers to display. |
+| `fallbackBackgroundColor` | The background color if a background image fails to load. |
+| `darkenBackground` | Set background to be slightly darker. |
+| `showHeaderOnGenerate` | Display the tier list header on the generated image. |
+| `showDate` | Display the current date. |
 | `storageKey` | The key used for getting/setting the tier list in localStorage. |
+
+## Why Should I Use This?
+- Fully customizable
+- No watermark
+- No account required
 
 ## Tech
 - JavaScript / CSS / HTML
